@@ -14,8 +14,6 @@ class CarInsuranceApplicationTests {
 
     @Autowired
     CarService service;
-    @Autowired
-    CarController controller;
     
     @Test
     void insuranceValidityBasic() {
